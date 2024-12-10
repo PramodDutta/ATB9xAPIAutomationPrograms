@@ -1,2 +1,4 @@
-package com.thetestingacademy.ex02_RestAssuredBasics;public class APITesting005 {
+package com.thetestingacademy.ex02_RestAssuredBasics;
+
+public class APITesting005 {
 }

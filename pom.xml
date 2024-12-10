@@ -15,11 +15,48 @@
   </properties>
 
   <dependencies>
+
+    <!--
+    HTTP Method -> Rest Assured
+    Manage Testcase -> TestNG
+    HTML Report -> ReportNG, Allure Report, Extent Report
+    Excel Files - Apache POI
+    Logs -> Log4j
+    Assertions -> TestNG, RestAssured, AssertJ
+    MySQL - Java MySQL connector , JDBC Connector.
+    Others... later - Selenium, ...
+
+    -->
+
+
+    <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <groupId>io.rest-assured</groupId>
+      <artifactId>rest-assured</artifactId>
+      <version>5.5.0</version>
       <scope>test</scope>
     </dependency>
+
+    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+    <dependency>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>7.10.2</version>
+      <scope>test</scope>
+    </dependency>
+
+    <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
+    <dependency>
+      <groupId>io.qameta.allure</groupId>
+      <artifactId>allure-testng</artifactId>
+      <version>2.29.1</version>
+    </dependency>
+
+
+
+
+
+
+
   </dependencies>
 </project>
