@@ -60,7 +60,7 @@ public class APITesting008_GET_NonBDDStyle {
     @Description("Verify the GET Req Negative : 100000000000000000 Input")
     @Test
     public void test_NonBDDStyleGET_negative2(){
-            // This will written by Students
+            // This will be written by Students
 
 //        String pin_code = "100000000000000000";
 //        String pin_code = "@@#####";
