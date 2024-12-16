@@ -1,9 +1,9 @@
-package com.thetestingacademy.ex04_testNGExamples;
+package com.thetestingacademy.ex03_testNGExamples;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class APITesting015_TestNG_Groups {
+public class APITesting014_TestNG_Groups {
 
 
     @Test(groups = {"sanity", "qa","prod", "P0"})

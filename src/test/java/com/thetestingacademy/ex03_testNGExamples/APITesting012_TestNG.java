@@ -1,4 +1,4 @@
-package com.thetestingacademy.ex04_testNGExamples;
+package com.thetestingacademy.ex03_testNGExamples;
 
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
