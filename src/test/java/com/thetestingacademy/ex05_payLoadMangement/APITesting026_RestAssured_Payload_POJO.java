@@ -9,12 +9,9 @@ import org.hamcrest.Matchers;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.util.LinkedHashMap;
-import java.util.Map;
-
 import static org.assertj.core.api.Assertions.assertThat;
 
-public class APITesting025_RestAssured_Payload_POJO {
+public class APITesting026_RestAssured_Payload_POJO {
 
     RequestSpecification requestSpecification;
     ValidatableResponse validatableResponse;
